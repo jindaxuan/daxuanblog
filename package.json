@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev docs --open",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs",
+    "build": "vitepress build",
+    "dev": "cross-env NODE_ENV=development vitepress",
     "register:components": "vitepress-rc",
     "deploy": "./deploy.sh"
   },
