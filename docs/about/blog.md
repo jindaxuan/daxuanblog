@@ -99,7 +99,6 @@ features:
 footer: MIT Licensed | Copyright © 2019-present Evan You
 ---
 ```
-![image](/public/img/about/blog-index.jpg)
 
 项目结构
 
