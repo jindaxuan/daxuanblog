@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "build": "vitepress build",
     "dev": "cross-env NODE_ENV=development vitepress",
-    "register:components": "vitepress-rc",
     "deploy": "./deploy.sh"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "node-copydir": "^1.0.1",
-    "vitepress": "^0.22.3",
-    "vitepress-theme-demoblock": "^1.4.2"
+    "globby": "^11.0.1",
+    "gray-matter": "^4.0.2",
+    "mz": "^2.7.0",
+    "cross-env": "^7.0.3",
+    "vitepress": "0.8.1"
   }
 }
