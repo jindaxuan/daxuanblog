@@ -2,13 +2,13 @@
 
 ## 效果预览
 
-https://jexlau.github.io/blog/
+https://jindaxuan.github.io/daxuanblog/
 
 ## 安装
 
 ```bash
-git clone https://github.com/JexLau/blog.git
-cd blog
+git clone https://github.com/jindaxuan/daxuanblog.git
+cd daxuanblog
 
 # 安装依赖
 yarn

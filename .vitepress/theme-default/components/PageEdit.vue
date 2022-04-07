@@ -11,7 +11,7 @@
     </p>
     <p class="platform">
       Copyright &copy; 2020-2021
-      <a href="https://github.com/jexlau">@JexLau</a>
+      <a href="https://github.com/jindaxuan">@jindaxuan</a>
     </p>
   </div>
 </template>
@@ -22,7 +22,7 @@ export default {
   setup() {
     const data = {
       platform: [
-        { href: "https://juejin.cn/user/3175045313607534", icon: juejin },
+        { href: "https://juejin.cn/user/782508012090439", icon: juejin },
       ]
     }
     return {

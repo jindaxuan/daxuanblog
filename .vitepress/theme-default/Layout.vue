@@ -21,7 +21,7 @@
     <div class="home-bg" v-if="enableHome">
       <div class="content-bg">
         <h1>
-          <p>人间总有一两风 填我十万八千梦</p>
+          <p>走的太急的时候，不要忘了当初为何出发</p>
         </h1>
       </div>
     </div>
@@ -69,7 +69,7 @@ import ToggleSideBarButton from "./components/ToggleSideBarButton.vue";
 import SideBar from "./components/SideBar.vue";
 import Page from "./components/Page.vue";
 import Card from "../theme/components/Card.vue";
-import headImg from "../images/t.png";
+import headImg from "../images/daxuan.jpg";
 import codeImg from "../images/mycode.jpg";
 
 import {
@@ -111,14 +111,14 @@ export default {
           },
           {
             icon: "icon-github",
-            link: "https://github.com/jexlau",
+            link: "https://github.com/jindaxuan",
             event: false,
           },
         ],
         nickName: "大煊",
-        skill: ["👹 日语", "🖋️ 练字", "🍵 喝茶"],
+        skill: ["🛹 滑板", "🎤 唱歌", "🌊 出去玩"],
         synopsis:
-          "19年毕业的程序媛，目前在巩固前端基础，简单的事情重复做，重复的事情用心做。",
+          "17年毕业的菜鸡，没啥好说的，如果非要说点什么的话，就说我帅吧！",
       },
     };
   },
@@ -222,14 +222,14 @@ export default {
 }
 
 .content-bg h1 p {
-  font: bold 200% Consolas, Monaco, monospace;
+  font: bold 210% Consolas, Monaco, monospace;
   border-right: 0.1em solid;
-  width: 15em; /* fallback */
+  width: 18em; /* fallback */
   /* width: 30ch; # of chars */
   margin: 2em 1em;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 5s steps(12, end),
+  animation: typing 8s steps(18, end),
     /*英文速度*/ blink-caret 0.5s step-end infinite alternate;
 }
 .content-bg {
@@ -252,9 +252,8 @@ export default {
 .home-bg {
   width: 100%;
   margin-top: 3rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 30%;
+  background-repeat: repeat;
+  background-size: 50% 100%;
   background-image: url("../images/bg.jpg");
   height: 450px;
   position: relative;

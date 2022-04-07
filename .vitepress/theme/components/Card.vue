@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import logo from "../../images/t.png";
+import logo from "../../images/daxuan.jpg";
 export default {
   props: {
     config: {
