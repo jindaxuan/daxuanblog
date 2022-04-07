@@ -1,0 +1,20 @@
+{
+  "name": "daxuanblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "register:components": "vitepress-rc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-copydir": "^1.0.1",
+    "vitepress": "^0.22.3",
+    "vitepress-theme-demoblock": "^1.4.2"
+  }
+}
