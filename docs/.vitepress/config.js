@@ -6,22 +6,23 @@ module.exports = {
     base: '/', //  部署时的路径 默认 /  可以使用二级地址 /base/
     // lang: 'en-US', //语言
     // 网页头部配置，引入需要图标，css，js
-    // head: [
-    //   // 改变title的图标
-    //   [
-    //     'link',
-    //     {
-    //       rel: 'icon',
-    //       href: '/img/linktolink.png',//图片放在public文件夹下
-    //     },
-    //   ],
-    // ],
+    head: [
+       [ "meta",
+        {
+          name: "viewport",
+          content:
+            "width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
+        },
+      ],
+      ["meta", { name: "keywords", content: "大煊博客",}],
+      ["link", { rel: "icon", href: "/favicon.ico" }],
+    ],
     // 主题配置
     themeConfig: {
       repo: 'vuejs/vitepress', // 你的 github 仓库地址，网页的右上角会跳转
       //   头部导航
       nav: [
-        { text: '首页', link: '/' },
+        { text: '🏠 首页"', link: '/' },
         { text: '关于', link: '/about/author' },
         { text: '博客', link: '/about/blog' },
       ],
