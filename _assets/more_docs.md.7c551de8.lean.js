@@ -1,1 +1,0 @@
-import{l as t,f as e,g as a,y as r}from"./common-9b7edf5d.js";const o='{"title":"📅 归档","frontmatter":{"page":true,"date":"2021-10-07","title":"📅 归档","describe":"归档"},"relativePath":"more/docs.md","lastUpdated":1649361244526.5696}';var s={};s.render=function(o,s,d,n,l,c){const i=t("Docs",!0);return e(),a("div",null,[r(i)])};export{o as __pageData,s as default};
